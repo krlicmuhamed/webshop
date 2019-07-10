@@ -1,0 +1,57 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>HomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProductsServlet</servlet-name>
+        <servlet-class>ProductsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductsServlet</servlet-name>
+        <url-pattern>/products</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartAddServlet</servlet-name>
+        <servlet-class>CartAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartAddServlet</servlet-name>
+        <url-pattern>/cart/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartRemoveServlet</servlet-name>
+        <servlet-class>CartRemoveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartRemoveServlet</servlet-name>
+        <url-pattern>/cart/remove</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartOrderServlet</servlet-name>
+        <servlet-class>CartOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartOrderServlet</servlet-name>
+        <url-pattern>/cart/order</url-pattern>
+    </servlet-mapping>
+
+</web-app>

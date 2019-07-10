@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd" version="3.1">
+    <description>EJB Descriptor</description>
+    <display-name>EJB Test</display-name>
+    <enterprise-beans>
+        <session>
+            <ejb-name>ProductsSessionEJB</ejb-name>
+            <ejb-class>ProductsSessionBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+            <ejb-ref>
+                <ejb-ref-name>ProductsSessionEJB</ejb-ref-name>
+                <ejb-ref-type>Session</ejb-ref-type>
+                <remote>ProductSessionEJBRemote</remote>
+                <ejb-link>ProductsSessionEJB</ejb-link>
+            </ejb-ref>
+        </session>
+    </enterprise-beans>
+</ejb-jar>
