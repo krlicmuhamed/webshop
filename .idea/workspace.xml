@@ -7,19 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360cf3c7-3a3b-4f74-85f6-0e541a84f384" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1622df07-6843-4bf5-ac4c-09ef402b274a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f8f4f7a-7e00-445f-879d-de31dd11b555.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5a5e8a4-c695-450d-ade4-19a7800bb52a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/TomEE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TomEE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ear/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejbs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejbs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primary-source/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/primary-source/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primary-source/src/main/java/ProductSessionEJBRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/primary-source/src/main/java/ProductSessionEJBRemote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -92,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +87,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/primary-source/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="184" selection-start-line="15" selection-start-column="184" selection-end-line="15" selection-end-column="184" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -178,13 +183,13 @@
         <option value="$PROJECT_DIR$/servlets/servlet/.gitignore" />
         <option value="$PROJECT_DIR$/ejbs/target/classes/META-INF/ejb-jar.xml" />
         <option value="$PROJECT_DIR$/ejbs/pom.xml" />
-        <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" />
         <option value="$PROJECT_DIR$/primary-source/src/main/java/ProductSessionEJBRemote.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionBean.java" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/ProductsServlet.java" />
         <option value="$PROJECT_DIR$/ear/pom.xml" />
         <option value="$PROJECT_DIR$/primary-source/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -358,6 +363,16 @@
             </path>
             <path>
               <item name="webshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webshop" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -440,7 +455,7 @@
       <workItem from="1562618034917" duration="2788000" />
       <workItem from="1562621797953" duration="23278000" />
       <workItem from="1562859664158" duration="67000" />
-      <workItem from="1562872759779" duration="257000" />
+      <workItem from="1562872759779" duration="830000" />
     </task>
     <servers />
   </component>
@@ -453,7 +468,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43068000" />
+    <option name="totallyTimeSpent" value="43641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,9 +481,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.691023" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.691023" visible="true" weight="0.26609442" />
       <window_info id="Structure" order="1" sideWeight="0.30228138" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.30897704" side_tool="true" visible="true" weight="0.26609442" />
@@ -503,7 +517,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="JSF" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.19742489" />
+      <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.19742489" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="CDI" order="10" weight="0.3297568" />
@@ -641,13 +655,6 @@
     <entry file="file://$PROJECT_DIR$/ear/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartRemoveServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -738,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servlets/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -813,7 +813,7 @@
     <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -824,6 +824,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="184" selection-start-line="15" selection-start-column="184" selection-end-line="15" selection-end-column="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
