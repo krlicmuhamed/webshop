@@ -18,4 +18,10 @@ public class ProductsSessionBean implements ProductSessionEJBRemote{
         List<ProductsEntity> result = em.createNamedQuery("products.findAll").getResultList();
         return result;
     }
+
+    @Override
+    public ProductsEntity findById(Long Id) {
+        ProductsEntity result = (ProductsEntity) em.createNamedQuery("products.findById").setParameter("Id", Id).getSingleResult();
+        return result;
+    }
 }

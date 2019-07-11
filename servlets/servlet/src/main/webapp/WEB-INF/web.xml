@@ -18,7 +18,6 @@
         <url-pattern>/products</url-pattern>
     </servlet-mapping>
 
-
     <servlet>
         <servlet-name>CartServlet</servlet-name>
         <servlet-class>CartServlet</servlet-class>
@@ -26,5 +25,14 @@
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
         <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartAddServlet</servlet-name>
+        <servlet-class>CartAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartAddServlet</servlet-name>
+        <url-pattern>/cart/add</url-pattern>
     </servlet-mapping>
 </web-app>
