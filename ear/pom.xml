@@ -21,6 +21,7 @@
       <groupId>ba.imasoft</groupId>
       <artifactId>logging</artifactId>
     </dependency>
+<!--    ear package all local modules-->
     <dependency>
       <groupId>ba.imasoft</groupId>
       <artifactId>primary-source</artifactId>

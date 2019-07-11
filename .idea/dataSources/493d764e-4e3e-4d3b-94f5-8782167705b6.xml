@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="localhost:3306/webshop">
+<dataSource name="jpa-PU/Hibernate">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
     <root id="1">
       <ServerVersion>8.0.16</ServerVersion>
@@ -1191,66 +1191,74 @@
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="294" parent="280" name="products_id_uindex">
+    <column id="294" parent="280" name="featured">
+      <Position>5</Position>
+      <Comment>is featured at welcome page</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="295" parent="280" name="products_id_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="295" parent="280" name="PRIMARY">
+    <key id="296" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="296" parent="280" name="products_id_uindex">
+    <key id="297" parent="280" name="products_id_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>products_id_uindex</UnderlyingIndexName>
     </key>
-    <column id="297" parent="281" name="id">
+    <column id="298" parent="281" name="id">
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="281" name="email">
+    <column id="299" parent="281" name="email">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="299" parent="281" name="password">
+    <column id="300" parent="281" name="password">
       <Position>3</Position>
       <Comment>SHA512 encoded password</Comment>
       <DataType>varchar(1000)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="281" name="shipping_address">
+    <column id="301" parent="281" name="shipping_address">
       <Position>4</Position>
       <DataType>varchar(1000)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="281" name="phone">
+    <column id="302" parent="281" name="phone">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="281" name="items_bought">
+    <column id="303" parent="281" name="items_bought">
       <Position>6</Position>
       <Comment>number of items bought by user</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="303" parent="281" name="id">
+    <index id="304" parent="281" name="id">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="304" parent="281" name="PRIMARY">
+    <key id="305" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="305" parent="281" name="id">
+    <key id="306" parent="281" name="id">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id</UnderlyingIndexName>
     </key>

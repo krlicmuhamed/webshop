@@ -10,12 +10,12 @@
             <ejb-class>ProductsSessionBean</ejb-class>
             <session-type>Stateless</session-type>
             <transaction-type>Container</transaction-type>
-            <ejb-ref>
+            <ejb-local-ref>
                 <ejb-ref-name>ProductsSessionEJB</ejb-ref-name>
                 <ejb-ref-type>Session</ejb-ref-type>
-                <remote>ProductSessionEJBRemote</remote>
+                <local>ProductSessionEJBRemote</local>
                 <ejb-link>ProductsSessionEJB</ejb-link>
-            </ejb-ref>
+            </ejb-local-ref>
         </session>
     </enterprise-beans>
 </ejb-jar>

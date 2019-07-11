@@ -19,7 +19,6 @@
     <dependency>
       <groupId>ba.imasoft</groupId>
       <artifactId>primary-source</artifactId>
-      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>ba.imasoft</groupId>
