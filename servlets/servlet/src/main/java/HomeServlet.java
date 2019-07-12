@@ -14,6 +14,13 @@ public class HomeServlet extends javax.servlet.http.HttpServlet {
             CartSessionFactory Cart = new CartSessionFactory();
             session.setAttribute("cart", Cart);
         }
+        UserSessionFactory user = (UserSessionFactory) session.getAttribute("user");
+        if(user==null || user.getUser()==null){
+            session.setAttribute("user.loggedIn", false);
+        }else{
+            session.setAttribute("user.email", user.getUser().getEmail());
+            session.setAttribute("user.loggedIn", user.isLoggedIn());
+        }
         request.getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
     }
 }

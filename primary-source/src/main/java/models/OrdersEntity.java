@@ -3,15 +3,16 @@ package models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "orders", schema = "webshop", catalog = "")
+@Table(name = "orders", schema = "webshop")
 public class OrdersEntity {
     private long id;
     private String cartNumber;
     private int productId;
     private int userId;
-    private byte pending;
+    private boolean pending;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     public long getId() {
         return id;
@@ -53,11 +54,11 @@ public class OrdersEntity {
 
     @Basic
     @Column(name = "pending")
-    public byte getPending() {
+    public boolean getPending() {
         return pending;
     }
 
-    public void setPending(byte pending) {
+    public void setPending(boolean pending) {
         this.pending = pending;
     }
 
@@ -83,7 +84,7 @@ public class OrdersEntity {
         result = 31 * result + (cartNumber != null ? cartNumber.hashCode() : 0);
         result = 31 * result + productId;
         result = 31 * result + userId;
-        result = 31 * result + (int) pending;
+        result = 31 * result + (pending ? 1 : 0);
         return result;
     }
 }

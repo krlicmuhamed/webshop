@@ -3,13 +3,17 @@ package models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "users", schema = "webshop", catalog = "")
+@Table(name = "users", schema = "webshop")
+@NamedQueries({
+        @NamedQuery(name="users.findByLogin", query="SELECT u FROM UsersEntity u WHERE u.email = :Email AND u.password = :Password")
+})
 public class UsersEntity {
     private long id;
     private String email;
     private String password;
     private String shippingAddress;
     private String phone;
+    private String role;
     private Integer itemsBought;
 
     @Id
@@ -70,6 +74,14 @@ public class UsersEntity {
 
     public void setItemsBought(Integer itemsBought) {
         this.itemsBought = itemsBought;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
     @Override

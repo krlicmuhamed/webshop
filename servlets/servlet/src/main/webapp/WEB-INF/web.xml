@@ -19,6 +19,33 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <servlet-class>UserLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <url-pattern>/user/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserLogoutServlet</servlet-name>
+        <servlet-class>UserLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogoutServlet</servlet-name>
+        <url-pattern>/user/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <servlet-class>UserRegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <url-pattern>/user/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>CartServlet</servlet-name>
         <servlet-class>CartServlet</servlet-class>
     </servlet>
@@ -34,5 +61,14 @@
     <servlet-mapping>
         <servlet-name>CartAddServlet</servlet-name>
         <url-pattern>/cart/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartOrderServlet</servlet-name>
+        <servlet-class>CartOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartOrderServlet</servlet-name>
+        <url-pattern>/cart/order</url-pattern>
     </servlet-mapping>
 </web-app>

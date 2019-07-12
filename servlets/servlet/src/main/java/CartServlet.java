@@ -19,7 +19,13 @@ public class CartServlet extends javax.servlet.http.HttpServlet {
             cart = new CartSessionFactory();
             session.setAttribute("cart", cart);
         }
-        request.setAttribute("cartItems", cart.getCartItemsList());
+        request.setAttribute("cart.items", cart.getCartItemsList());
+
+        Double ProductTotal = 0.0;
+        for (ProductsEntity productsEntity : cart.getCartItemsList())
+            ProductTotal += productsEntity.getPrice();
+        request.setAttribute("cart.total", ProductTotal);
+
         request.getRequestDispatcher("/WEB-INF/cart.jsp").forward(request, response);
     }
 }

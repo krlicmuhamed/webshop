@@ -1,0 +1,24 @@
+<%@ page import="models.ProductsEntity" %>
+<%@ page import="java.util.List" %>
+<%
+    String orderCartNumber = (String) request.getAttribute("order.cartNumber");
+    String orderPhone = (String) request.getAttribute("order.phone");
+    String orderAddress = (String) request.getAttribute("order.address");
+%>
+<html>
+<body>
+<h2>Your order invoice:</h2>
+<h4>Successful order!</h4>
+<p>Your order number is <%= orderCartNumber %></p>
+<p>We will contact you at phone number <%= orderPhone %></p>
+<p>We will send you the items at following shipping address <%= orderAddress%></p>
+<p>You ordered following items:</p>
+<ul>
+    <%
+        List<ProductsEntity> items = (List<ProductsEntity>) request.getAttribute("order.items");
+        for(ProductsEntity item : items) { %>
+            <li><%= item.getName() %></li>
+    <%  }%>
+</ul>
+</body>
+</html>

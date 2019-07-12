@@ -1,8 +1,18 @@
 <%@ page import="models.ProductsEntity" %>
 <%@ page import="java.util.List" %>
+<%
+    boolean userStatus = (boolean) session.getAttribute("user.loggedIn");
+%>
 <html>
 <body>
 <h2>Hello Products!</h2>
+<a href="/">Home</a>
+<a href="/cart">My Cart</a>
+<% if(userStatus) { %>
+<a href="/user/logout">Logout</a>
+<% } else { %>
+<a href="/user/login">Login</a>
+<% } %>
 <h3>Raspoloživi proizvodi</h3>
 <table border="1" style="border-collapse: collapse" cellpadding="8" cellspacing="0">
     <tr style='background-color:powderblue;'>

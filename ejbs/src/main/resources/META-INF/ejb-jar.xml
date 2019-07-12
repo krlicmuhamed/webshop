@@ -17,5 +17,30 @@
                 <ejb-link>ProductsSessionEJB</ejb-link>
             </ejb-local-ref>
         </session>
+        <session>
+            <ejb-name>UserSessionEJB</ejb-name>
+            <ejb-class>UserSessionBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+            <ejb-local-ref>
+                <ejb-ref-name>ProductsSessionEJB</ejb-ref-name>
+                <ejb-ref-type>Session</ejb-ref-type>
+                <local>UserSessionEJBRemote</local>
+                <ejb-link>UserSessionEJB</ejb-link>
+            </ejb-local-ref>
+        </session>
+        <session>
+            <display-name>Order</display-name>
+            <ejb-name>OrderSessionEJB</ejb-name>
+            <ejb-class>OrderSessionBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+            <ejb-local-ref>
+                <ejb-ref-name>OrderSessionEJB</ejb-ref-name>
+                <ejb-ref-type>Session</ejb-ref-type>
+                <local>OrderSessionEJBRemote</local>
+                <ejb-link>OrderSessionEJB</ejb-link>
+            </ejb-local-ref>
+        </session>
     </enterprise-beans>
 </ejb-jar>
