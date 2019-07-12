@@ -6,34 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="360cf3c7-3a3b-4f74-85f6-0e541a84f384" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ejbs/src/main/java/OrderSessionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejbs/src/main/java/UserSessionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primary-source/src/main/java/OrderSessionEJBRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primary-source/src/main/java/UserSessionEJBRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primary-source/src/main/java/util/hashPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/UserLoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/UserLogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/UserRegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/UserSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c233b12-84b5-4fb3-b5b9-422b4a176e28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c233b12-84b5-4fb3-b5b9-422b4a176e28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/TomEE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TomEE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primary-source/src/main/java/models/OrdersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/primary-source/src/main/java/models/OrdersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primary-source/src/main/java/models/UsersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/primary-source/src/main/java/models/UsersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/java/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/java/ProductsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/ProductsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="360cf3c7-3a3b-4f74-85f6-0e541a84f384" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/primary-source/target/" />
@@ -129,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
@@ -141,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/order.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="270">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -559,7 +532,7 @@
       <workItem from="1562621797953" duration="23278000" />
       <workItem from="1562859664158" duration="67000" />
       <workItem from="1562872759779" duration="14445000" />
-      <workItem from="1562950549749" duration="13547000" />
+      <workItem from="1562950549749" duration="13848000" />
     </task>
     <servers />
   </component>
@@ -572,7 +545,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70803000" />
+    <option name="totallyTimeSpent" value="71104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,7 +560,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69044584" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6880531" visible="true" weight="0.26609442" />
       <window_info id="Structure" order="1" sideWeight="0.30228138" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.3084886" side_tool="true" weight="0.26609442" />
@@ -595,21 +568,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="EJB" order="8" sideWeight="0.30955413" side_tool="true" visible="true" weight="0.26609442" />
+      <window_info id="EJB" order="8" sideWeight="0.3119469" side_tool="true" visible="true" weight="0.26609442" />
       <window_info id="JavaEE:App" order="9" sideWeight="0.30522087" side_tool="true" weight="0.25894135" />
       <window_info id="Web" order="10" sideWeight="0.30228138" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="SQL Generator" weight="0.3299363" />
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32738853" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49928468" weight="0.4242038" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49928468" visible="true" weight="0.4242038" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49928468" weight="0.38471338" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32866243" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.28152865" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.28025478" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007153" side_tool="true" weight="0.38471338" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4985694" weight="0.32738853" />
@@ -1045,16 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/ProductsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1077,8 +1040,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/order.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="270">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
