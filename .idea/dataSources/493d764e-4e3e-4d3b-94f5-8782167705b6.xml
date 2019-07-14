@@ -1246,19 +1246,27 @@
       <Position>6</Position>
       <Comment>number of items bought by user</Comment>
       <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="304" parent="281" name="id">
+    <column id="304" parent="281" name="role">
+      <Position>7</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;customer&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="305" parent="281" name="id">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="305" parent="281" name="PRIMARY">
+    <key id="306" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="306" parent="281" name="id">
+    <key id="307" parent="281" name="id">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id</UnderlyingIndexName>
     </key>

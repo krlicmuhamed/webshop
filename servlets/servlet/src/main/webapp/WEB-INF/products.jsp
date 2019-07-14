@@ -4,6 +4,9 @@
     boolean userStatus = (boolean) session.getAttribute("user.loggedIn");
 %>
 <html>
+<head>
+    <meta contentType="text/html; charset="UTF-8"/>
+</head>
 <body>
 <h2>Hello Products!</h2>
 <a href="/">Home</a>

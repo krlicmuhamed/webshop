@@ -98,7 +98,7 @@ public class UsersEntity {
             return false;
         if (phone != null ? !phone.equals(that.phone) : that.phone != null) return false;
         if (itemsBought != null ? !itemsBought.equals(that.itemsBought) : that.itemsBought != null) return false;
-
+        if (role != null ? !role.equals(that.role) : that.role != null) return false;
         return true;
     }
 
@@ -110,6 +110,7 @@ public class UsersEntity {
         result = 31 * result + (shippingAddress != null ? shippingAddress.hashCode() : 0);
         result = 31 * result + (phone != null ? phone.hashCode() : 0);
         result = 31 * result + (itemsBought != null ? itemsBought.hashCode() : 0);
+        result = 31 * result + (role != null ? role.hashCode() : 0);
         return result;
     }
 }

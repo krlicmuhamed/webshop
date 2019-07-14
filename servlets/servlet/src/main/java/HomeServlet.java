@@ -20,6 +20,8 @@ public class HomeServlet extends javax.servlet.http.HttpServlet {
         }else{
             session.setAttribute("user.email", user.getUser().getEmail());
             session.setAttribute("user.loggedIn", user.isLoggedIn());
+            boolean isAdmin = (true ? user.getUser().getRole()=="admin" : false);
+            session.setAttribute("user.isAdmin", isAdmin);
         }
         request.getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
     }

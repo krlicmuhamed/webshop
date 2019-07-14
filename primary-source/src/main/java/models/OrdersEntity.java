@@ -4,6 +4,13 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "orders", schema = "webshop")
+@NamedQueries({
+    @NamedQuery(name="orders.findPendingCarts", query="" +
+            "SELECT o.cartNumber, p.name, COUNT(p.name) AS quantity, u.email, u.phone, u.shippingAddress " +
+            "FROM OrdersEntity o, ProductsEntity p, UsersEntity u " +
+            "WHERE u.id = o.userId AND p.id = o.productId AND o.pending=true " +
+            "GROUP BY o.cartNumber, p.name, u.email, u.phone, u.shippingAddress ORDER BY o.cartNumber")
+})
 public class OrdersEntity {
     private long id;
     private String cartNumber;

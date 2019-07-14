@@ -28,7 +28,6 @@ public class UserLoginServlet extends javax.servlet.http.HttpServlet {
             userSession.setUser(user);
             userSession.setIsLoggedIn(true);
             session.setAttribute("user", userSession);
-            session.setAttribute("user.loggedIn", false);
             session.setAttribute("user.email", userSession.getUser().getEmail());
             session.setAttribute("user.loggedIn", userSession.isLoggedIn());
             response.sendRedirect("/cart");

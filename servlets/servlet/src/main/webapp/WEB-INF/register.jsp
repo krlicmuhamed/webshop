@@ -1,4 +1,7 @@
 <html>
+<head>
+    <meta contentType="text/html; charset="UTF-8"/>
+</head>
 <body>
 <h2>Hello please register to buy</h2>
 <a href="/">Home</a>

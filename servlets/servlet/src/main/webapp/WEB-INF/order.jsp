@@ -6,6 +6,9 @@
     String orderAddress = (String) request.getAttribute("order.address");
 %>
 <html>
+<head>
+    <meta contentType="text/html; charset="UTF-8"/>
+</head>
 <body>
 <h2>Your order invoice:</h2>
 <h4>Successful order!</h4>
