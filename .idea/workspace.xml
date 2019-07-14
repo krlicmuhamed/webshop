@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="360cf3c7-3a3b-4f74-85f6-0e541a84f384" name="Default Changelist" comment="" />
+    <list default="true" id="360cf3c7-3a3b-4f74-85f6-0e541a84f384" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartRemoveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartRemoveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/CartSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/primary-source/target/" />
@@ -78,35 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/UserSessionBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" selection-start-line="22" selection-end-line="31" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/ProductsServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="19" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,19 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/order.jsp">
+        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartAddServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/OrderSessionBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="345">
+              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,24 +110,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://8c233b12-84b5-4fb3-b5b9-422b4a176e28/schema/webshop/table/orders">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="12d9b34b-5b1c-43b3-89fd-458c94811743">
-              <filtering>
-                <filter text="" />
-              </filtering>
+        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartRemoveServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/OrderSessionEJBRemote.java">
+        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/products.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -162,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -170,8 +160,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartSessionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="279">
+              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/ProductSessionEJBRemote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,12 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/models/OrdersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -218,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionLocalBeanImpl.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionRemote.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionLocal.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionImpl.java" />
@@ -232,7 +231,6 @@
         <option value="$PROJECT_DIR$/primary-source/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8c233b12-84b5-4fb3-b5b9-422b4a176e28/console.sql" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/OrderServlet.java" />
-        <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/CartRemoveServlet.java" />
         <option value="$PROJECT_DIR$/servlets/servlet/.gitignore" />
         <option value="$PROJECT_DIR$/ejbs/target/classes/META-INF/ejb-jar.xml" />
         <option value="$PROJECT_DIR$/ejbs/pom.xml" />
@@ -243,7 +241,6 @@
         <option value="$PROJECT_DIR$/primary-source/src/main/java/ProductSessionEJBRemote.java" />
         <option value="$PROJECT_DIR$/primary-source/src/main/java/models/ProductsEntity.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionBean.java" />
-        <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/CartSessionFactory.java" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/CartAddServlet.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/UserSessionFactory.java" />
@@ -252,7 +249,6 @@
         <option value="$PROJECT_DIR$/primary-source/src/main/java/util/hashPassword.java" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/UserRegisterServlet.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/java/UserSessionBean.java" />
-        <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/UserLogoutServlet.java" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/UserLoginServlet.java" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/home.jsp" />
@@ -262,13 +258,17 @@
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/login.jsp" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/register.jsp" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/ProductsServlet.java" />
-        <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp" />
         <option value="$PROJECT_DIR$/primary-source/src/main/java/OrderSessionEJBRemote.java" />
         <option value="$PROJECT_DIR$/primary-source/src/main/java/models/OrdersEntity.java" />
         <option value="$PROJECT_DIR$/ejbs/src/main/java/OrderSessionBean.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java" />
         <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/order.jsp" />
+        <option value="$PROJECT_DIR$/webshop.sql" />
+        <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/CartSessionFactory.java" />
+        <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/CartRemoveServlet.java" />
+        <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp" />
+        <option value="$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java" />
       </list>
     </option>
   </component>
@@ -301,6 +301,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -453,9 +455,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,7 +532,8 @@
       <workItem from="1562621797953" duration="23278000" />
       <workItem from="1562859664158" duration="67000" />
       <workItem from="1562872759779" duration="14445000" />
-      <workItem from="1562950549749" duration="13848000" />
+      <workItem from="1562950549749" duration="14236000" />
+      <workItem from="1563113100536" duration="1305000" />
     </task>
     <servers />
   </component>
@@ -545,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71104000" />
+    <option name="totallyTimeSpent" value="72797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,10 +558,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6880531" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6873706" visible="true" weight="0.26967096" />
       <window_info id="Structure" order="1" sideWeight="0.30228138" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.3084886" side_tool="true" weight="0.26609442" />
@@ -568,15 +569,14 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="EJB" order="8" sideWeight="0.3119469" side_tool="true" visible="true" weight="0.26609442" />
+      <window_info id="EJB" order="8" sideWeight="0.3126294" side_tool="true" visible="true" weight="0.26967096" />
       <window_info id="JavaEE:App" order="9" sideWeight="0.30522087" side_tool="true" weight="0.25894135" />
       <window_info id="Web" order="10" sideWeight="0.30228138" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="SQL Generator" weight="0.3299363" />
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32738853" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49928468" visible="true" weight="0.4242038" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49928468" weight="0.38471338" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49928468" weight="0.4242038" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.49928468" visible="true" weight="0.38471338" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32866243" />
@@ -591,6 +591,7 @@
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" weight="0.32891566" />
       <window_info anchor="bottom" id="Hibernate Console" order="17" weight="0.3299363" />
       <window_info anchor="bottom" id="JPA Console" order="18" weight="0.3299363" />
+      <window_info anchor="bottom" id="SQL Generator" order="19" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -653,9 +654,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ejbs/target/ejbs-1.0-SNAPSHOT/META-INF/ejb-jar.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ejbs/ejbs.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -693,8 +691,8 @@
       </provider>
     </entry>
     <entry file="javaeeDummy://JavaeeElement:/46c31e04/ProductsSessionEJB/ejbs/ejb/EJB/SessionEjb">
-      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbGeneralEditorProvider" />
       <provider editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbAssemblyDescriptorEditorProvider" />
+      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbGeneralEditorProvider" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/8.0.1/javaee-web-api-8.0.1.jar!/javax/ejb/EJB.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -721,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartAddServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -746,8 +734,8 @@
       </provider>
     </entry>
     <entry file="javaeeDummy://JavaeeElement:/46c31e04/UserSessionEJB/ejbs/ejb/EJB/SessionEjb">
-      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbGeneralEditorProvider" />
       <provider editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbAssemblyDescriptorEditorProvider" />
+      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbGeneralEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/models/ProductsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -758,17 +746,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml">
       <provider selected="true" editor-type-id="com.intellij.javaee.module.components.TransactionAttributesEditorProvider" />
+      <provider editor-type-id="com.intellij.javaee.module.components.EjbModuleGeneralEditorProvider" />
+      <provider editor-type-id="com.intellij.javaee.module.components.MethodPermissionsEditorProvider" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.components.EjbModuleGeneralEditorProvider" />
-      <provider editor-type-id="com.intellij.javaee.module.components.MethodPermissionsEditorProvider" />
     </entry>
     <entry file="javaeeDummy://JavaeeElement:/46c31e04/OrderSessionEJB/ejbs/ejb/EJB/SessionEjb">
-      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbGeneralEditorProvider" />
       <provider editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbAssemblyDescriptorEditorProvider" />
+      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.ejb.editor.EjbGeneralEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/ProductsSessionBean.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,23 +765,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/ProductSessionEJBRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webshop.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -886,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/UserLogoutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -938,20 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/UserSessionBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -971,67 +921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/models/OrdersEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/OrderSessionEJBRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8c233b12-84b5-4fb3-b5b9-422b4a176e28/schema/webshop/table/orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="12d9b34b-5b1c-43b3-89fd-458c94811743">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/ProductsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state>
           <caret line="20" selection-start-line="19" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/OrderSessionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1041,14 +934,125 @@
     <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/order.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejbs/src/main/java/OrderSessionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8c233b12-84b5-4fb3-b5b9-422b4a176e28/schema/webshop/table/orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="0aa96aee-7bae-43f0-9371-2f390ee8cd7b">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/OrderSessionEJBRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/models/OrdersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webshop.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primary-source/src/main/java/ProductSessionEJBRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartRemoveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartAddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servlets/servlet/src/main/java/CartOrderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="210">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -11,7 +11,9 @@ public class CartOrderServlet extends javax.servlet.http.HttpServlet {
         HttpSession session = request.getSession();
         UserSessionFactory userSession = (UserSessionFactory) session.getAttribute("user");
         CartSessionFactory cart = (CartSessionFactory) session.getAttribute("cart");
-        if(userSession!=null && userSession.isLoggedIn()){
+        if(cart.getCartItemsList().size() < 1){
+            response.sendRedirect("/cart");
+        }else if(userSession!=null && userSession.isLoggedIn()){
             OrderBean.addOrder(cart.getCartNumber(), userSession.getUser(), cart.getCartItemsList());
             session.removeAttribute("cart");
             request.setAttribute("order.cartNumber", cart.getCartNumber());

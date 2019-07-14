@@ -18,10 +18,12 @@
     <tr style='background-color:powderblue;'>
         <td>Name</td>
         <td>Price</td>
+        <td>Option</td>
     </tr>
     <%
         List<ProductsEntity> CartItems = (List<ProductsEntity>) request.getAttribute("cart.items");
         Double productsTotal = (Double) request.getAttribute("cart.total");
+        int itemIndex = 0;
         for (ProductsEntity product : CartItems) {
     %>
     <tr>
@@ -29,9 +31,16 @@
         </td>
         <td><%=product.getPrice()%>
         </td>
+        <td>
+            <form action="/cart/remove" method="POST">
+                <input name="itemId" type="hidden" value="<%=itemIndex++%>">
+                <button type="submit">Remove</button>
+            </form>
+        </td>
     </tr>
     <%}%>
     <tr>
+        <td></td>
         <td>Total:</td>
         <td><%= productsTotal %></td>
     </tr>

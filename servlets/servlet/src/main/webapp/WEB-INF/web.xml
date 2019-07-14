@@ -64,6 +64,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>CartRemoveServlet</servlet-name>
+        <servlet-class>CartRemoveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartRemoveServlet</servlet-name>
+        <url-pattern>/cart/remove</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>CartOrderServlet</servlet-name>
         <servlet-class>CartOrderServlet</servlet-class>
     </servlet>

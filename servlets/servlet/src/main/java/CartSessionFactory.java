@@ -40,6 +40,11 @@ public class CartSessionFactory {
         }
     }
 
+    public void removeCartProductItem(Integer itemId){
+        cartItemsList.remove(this.cartItemsList.get(itemId));
+    }
+
+
     public List<ProductsEntity> getCartItemsList() {
         return this.cartItemsList;
     }
